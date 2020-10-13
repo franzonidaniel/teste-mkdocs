@@ -1,2 +1,2 @@
 # URL DOCUMENTAÇÃO
-mkdocs/site/
+https://franzonidaniel.github.io/teste-mkdocs/

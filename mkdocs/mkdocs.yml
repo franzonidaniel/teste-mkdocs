@@ -6,7 +6,9 @@ extra_javascript:
 site_name: POC
 nav:
     - Home: index.md
-    - Arquitetura: arq.md
+    - Arquitetura: 
+        - Diagrama: arq.md
+        - Extração: ext.md
     - About: about.md
 theme:
   name: material

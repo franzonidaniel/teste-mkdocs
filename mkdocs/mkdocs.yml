@@ -10,8 +10,10 @@ nav:
         - Diagrama: arq.md
         - Extração: ext.md
     - About: about.md
-theme:
-  name: material
-  palette:
-    primary: deep purple
-    accent: deep purple
+    - Tasks: 
+        - Filter New Missions: filter_new_missions.md
+# theme:
+#   name: material
+#   palette:
+#     primary: deep purple
+#     accent: deep purple

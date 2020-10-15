@@ -6,7 +6,7 @@
 <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <link href="../img/favicon.ico" rel="shortcut icon"/>
-<title>About - POC</title>
+<title>Filter New Missions - POC</title>
 <link href="../css/bootstrap.min.css" rel="stylesheet"/>
 <link href="../css/font-awesome.min.css" rel="stylesheet"/>
 <link href="../css/base.css" rel="stylesheet"/>
@@ -42,14 +42,14 @@
 </li>
 </ul>
 </li>
-<li class="navitem active">
-<a class="nav-link" href="./">About</a>
+<li class="navitem">
+<a class="nav-link" href="../about/">About</a>
 </li>
-<li class="dropdown">
+<li class="dropdown active">
 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Tasks <b class="caret"></b></a>
 <ul class="dropdown-menu">
 <li>
-<a class="dropdown-item" href="../filter_new_missions/">Filter New Missions</a>
+<a class="dropdown-item active" href="./">Filter New Missions</a>
 </li>
 </ul>
 </li>
@@ -61,12 +61,12 @@
                             </a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="../ext/" rel="prev">
+<a class="nav-link" href="../about/" rel="prev">
 <i class="fa fa-arrow-left"></i> Previous
                                 </a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="../filter_new_missions/" rel="next">
+<a class="nav-link disabled" rel="next">
                                     Next <i class="fa fa-arrow-right"></i>
 </a>
 </li>
@@ -84,13 +84,13 @@
 </div>
 <div class="navbar-collapse collapse card bg-secondary" id="toc-collapse">
 <ul class="nav flex-column">
-<li class="nav-item" data-level="1"><a class="nav-link" href="#venti-iuppiter-iunxit-non-tollens-saepe-tolle">Venti Iuppiter iunxit non tollens saepe tolle</a>
+<li class="nav-item" data-level="1"><a class="nav-link" href="#filter-new-missions">Filter New Missions</a>
 <ul class="nav flex-column">
-<li class="nav-item" data-level="2"><a class="nav-link" href="#iuvenalibus-solita-ponat-verborum-illi-tellus-ex">Iuvenalibus solita ponat verborum illi tellus ex</a>
+<li class="nav-item" data-level="2"><a class="nav-link" href="#configuracoes-iniciais">Configurações iniciais</a>
 <ul class="nav flex-column">
 </ul>
 </li>
-<li class="nav-item" data-level="2"><a class="nav-link" href="#iuppiter-agro-facio-una-concussaque-viae-vident">Iuppiter agro facio una concussaque viae vident</a>
+<li class="nav-item" data-level="2"><a class="nav-link" href="#tomada-de-decisoes-e-logica-do-processamento">Tomada de decisões e lógica do processamento</a>
 <ul class="nav flex-column">
 </ul>
 </li>
@@ -100,48 +100,39 @@
 </div>
 </div></div>
 <div class="col-md-9" role="main">
-<h1 id="venti-iuppiter-iunxit-non-tollens-saepe-tolle">Venti Iuppiter iunxit non tollens saepe tolle</h1>
-<h2 id="iuvenalibus-solita-ponat-verborum-illi-tellus-ex">Iuvenalibus solita ponat verborum illi tellus ex</h2>
-<p>Lorem markdownum imis memorabile iners. Ambiguum armis si fores Argolis, aut
-<em>rapta</em> nimium nomenque loquentem perque convexum. Capulo <strong>summusque</strong> te
-parvus et, ero torta petentes Diomedis lupi. Sua viae fulva capillo, sceleratos
-sunt Eurydicen paruit nullis iactato longaeva iniusti habuisse, ictibus
-exstantem cratera. Nullique <em>fraudate in magis</em> dicentem artes.</p>
-<ol>
-<li>Corpora rescindere edidit habent</li>
-<li>Flumen superbum illic de sacras sollicito</li>
-<li>Praetemptat texta</li>
-<li>Gurgite a habet nudae hoc fallitur obliquos</li>
-</ol>
-<p>Sic Medusae pugnax, memorabat angues sic illa nec bis est. Iuvenis me videre
-cunctaque et pariter medio, fruges, piget; micant miseram comitata et bicolor
-eripitur meique. Comitesque Chromin postes, fusile sua quoniam neve sese, celas,
-clamor. Possit Latonam iam manu, momordi iam tristis adsensere quaerente currus.</p>
-<ul>
-<li>Videt et corruit flumine tabe</li>
-<li>Patriam operum</li>
-<li>Pendentem quibus</li>
-<li>Boum unus illam</li>
-<li>Regnum patremque anguis</li>
-</ul>
-<h2 id="iuppiter-agro-facio-una-concussaque-viae-vident">Iuppiter agro facio una concussaque viae vident</h2>
-<p>Castris dubito adclinataque gere, <a href="http://hocsenecta.com/nil">nec</a> tempus flebat
-lapsa, ac fertur letum dixit meas propiora Minos, bene. Tertia bracchia, et
-tempus viscera moras est: pascua <em>carpsere similis</em> videnda; dare magni proximus
-si margine? Agitavit temperat praevalidusque avidusque iaculum, <a href="http://www.coniunx.net/quaerit-quam.php">est illis
-bis</a> corpora annis fata pro defensore
-corpus. Aeson rubentia domoque iubent, intra fertur pectoribus forte fugerat,
-candor. Radios et Inachus!</p>
-<pre><code>extranet.mirrorDotSystem = plugSprite + 4 + irq + zif_link_ruby;
-data_antivirus.num /= dialMotherboardCron(dvi(64, 1, -3), crtInsertion);
-soaClean = platform_website;
-prom_sdsl_barebones = thick + metal(language, -2);
+<h1 id="filter-new-missions">Filter New Missions</h1>
+<p>Esta task tem como objetivo filtrar o número de missões em 5 por KPI para cada GT, baseando-se na data em que 
+está sendo processado os dados.</p>
+<h2 id="configuracoes-iniciais">Configurações iniciais</h2>
+<p>Para a task rodar é necessário que as seguintes importações sejam realizadas:</p>
+<pre><code class="language-python">from projeto_missoes.util import azuredl, rules
+from projeto_missoes.util.dbtools import uuid4_udf, timestamp_udf, uuid4_udf_wconcat_size
+from projeto_missoes.util.datetimetools import add_days_udf, file_date_format, file_datetime_format, sub_days, last_sunday, last_weekday_wdiffdays_udf
+import projeto_missoes.util.schemas as schemas
+from pyspark.sql import functions as F
+from pyspark.sql.window import Window
+from datetime import datetime, timedelta
+from raizenlib.utils.adl import get_adl_client
 </code></pre>
-<p><strong>Nemo Vix illi</strong> sensimus et Aeolon satus venitque ipse, meri haererem. Illud
-duo mentis pectore hamata cognovit serpentum similis sua mea!</p>
-<p>Nodoso dumque haerentem quique septem! In <a href="http://coercetaccipe.io/">hostem</a> et
-frigora fabula quisquis ulla, Alemoniden Achille enim? Erat venit, erat illa
-Panaque.</p></div>
+<p>As seguintes variáveis devem ser criadas e o dataframe de missões não priorizadas.</p>
+<pre><code class="language-python">exec_date = kwargs['execution_date'] + timedelta(days=1)
+
+dias_vencimento = rules.geral.get('dias_vencimento')
+
+missoes_nao_priorizadas = azuredl.fetch_parquet(tab_rev360_nao_priorizadas)
+</code></pre>
+<p>A partir das missões não priorizadas são selecioanadas as missões mais recentes:</p>
+<pre><code class="language-python"> missoes_nao_priorizadas_latest = missoes_nao_priorizadas \
+        .filter(F.col('Data_Inicio__c').cast('date') == max_date)
+</code></pre>
+<p>Em seguida é trazido e validado, utilizando o método validate_hist_missioes, o histórico de missões do <strong>Sales Force</strong>:</p>
+<pre><code class="language-python">hist_missoes = azuredl.fetch_parquet(tab_hist_missoes_path)
+validate_hist_missioes(hist_missoes_path, main_path, exec_date, hist_missoes)
+</code></pre>
+<h2 id="tomada-de-decisoes-e-logica-do-processamento">Tomada de decisões e lógica do processamento</h2>
+<p>O fluxograma abaixo mostra como é tomada a decisão de quais tabelas de missões serão utilizadas para filtrar novas missões.</p>
+<p><img alt="Diagrama_filter_nm" src="../img/diag_filter-new-missions1.png"/></p>
+<h3 id="execucao-ate-dia-7-e-missoes-nao-priorizadas-existentes">Execução até dia 7 e missões não priorizadas existentes</h3></div>
 </div>
 </div>
 <footer class="col-md-12">

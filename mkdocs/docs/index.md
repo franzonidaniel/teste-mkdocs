@@ -39,7 +39,3 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 <br/>
 <br/>
 ## End
-
-<!-- Commit 1 -->
-<!-- Commit 2 -->
-<!-- Commit 3 -->

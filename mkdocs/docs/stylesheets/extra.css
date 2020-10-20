@@ -1,0 +1,20 @@
+.navbar {
+  background-color: hsl(300, 50%, 40%);
+  color: hsl(300, 50%, 40%);
+}
+
+a {
+  color: hsl(300, 50%, 50%);
+}
+
+a.dropdown-item:hover {
+  background-color: hsl(300, 50%, 40%);
+}
+
+a.dropdown-item.active {
+  background-color: hsl(300, 50%, 40%);
+} 
+
+a.nav-link {
+  color: hsl(300, 50%, 50%);
+}

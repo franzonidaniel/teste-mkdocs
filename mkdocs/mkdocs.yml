@@ -1,3 +1,16 @@
+theme:
+    name: mkdocs
+    nav_style: hsl(300, 50%, 40%)
+extra_css:
+  - stylesheets/extra.css
+#   - https://unpkg.com/mermaid@7.1.2/dist/mermaid.css
+markdown_extensions:
+    - attr_list
+    - pymdownx.superfences:
+        custom_fences:
+            - name: mermaid
+              class: mermaid
+              format: !!python/name:pymdownx.superfences.fence_div_format
 plugins:
     - search
     - mermaid2
@@ -12,8 +25,3 @@ nav:
     - About: about.md
     - Tasks: 
         - Filter New Missions: filter_new_missions.md
-# theme:
-#   name: material
-#   palette:
-#     primary: deep purple
-#     accent: deep purple

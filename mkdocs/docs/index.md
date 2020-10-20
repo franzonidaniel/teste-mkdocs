@@ -1,4 +1,6 @@
-# Basic
+# Documentação projeto [ ... ]
+<!-- Quebra de linha -->
+<br/>
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 ``` python
@@ -20,5 +22,20 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
 
+## Testes Figuras
 
+![Imagem-icone](img/favicon.png)
+*Imagem configurada com Markdown*
+<figure>
+  <img src="img/favicon.png" width="100" />
+  <figcaption>Imagem confgurada com HTML</figcaption>
+</figure>
+<figure>
+  <img style="float: right;" src="img/favicon.png" width="100" />
+  <figcaption>Imagem alinhada a direita confgurada com HTML</figcaption>
+</figure>
+
+<br/>
+<br/>
+<br/>
 ## End
